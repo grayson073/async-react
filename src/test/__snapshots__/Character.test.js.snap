@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Renders correctly 1`] = `
+<tr>
+  <td>
+    Frank
+  </td>
+  <td>
+    alive
+  </td>
+  <td>
+    dog
+  </td>
+  <td>
+    male
+  </td>
+</tr>
+`;
