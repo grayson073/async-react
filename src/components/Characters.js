@@ -18,13 +18,13 @@ export default class Characters extends Component {
   };
   
   componentDidMount() {
-    // Used for live API call and pagination:
+    /* Used for live API call and pagination: */
     getRickAndMortyCharacters(this.props.currentPage)
       .then(chars => {
         this.setState({ characters: chars.results });
       });
 
-    // Used for hard-coded "characterData" from above:
+    /* Used for hard-coded "characterData" from above: */
     // this.setState({ characters: characterData });
   }
 
@@ -34,9 +34,6 @@ export default class Characters extends Component {
       .then(chars => {
         this.setState({ characters: chars.results });
       });
-
-    // Used for hard-coded "characterData" from above:
-    // this.setState({ characters: characterData });
   }
   
   render() {
