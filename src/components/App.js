@@ -14,7 +14,6 @@ export default class App extends Component {
 
   decrement = () => {
     const { currentPage } = this.state;
-    console.log('CURRENT PAGE BEFORE', currentPage);
     if(currentPage === 1) return;
     this.setState({ currentPage: currentPage - 1 });
   };
