@@ -1,0 +1,8 @@
+.App {
+  align-items: center;
+  background-color: steelblue;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+}

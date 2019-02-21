@@ -1,0 +1,11 @@
+.Characters {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+img {
+  border: 2px solid black;
+  width: 125px;
+}

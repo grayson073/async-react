@@ -1,0 +1,10 @@
+.Header {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.Header :nth-child(2) {
+  padding: 15px;
+}

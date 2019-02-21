@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Characters from './Characters';
 import Header from './Header';
+import styles from './app.css';
 
 export default class App extends Component {
 
@@ -21,7 +22,7 @@ export default class App extends Component {
   render() {
     const { currentPage } = this.state;
     return (
-      <div>
+      <div className={styles.App}>
         <Header
           currentPage={currentPage}
           increment={this.increment}

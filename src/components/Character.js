@@ -1,15 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './character.css';
 
 function Character({ character }) {
-  const { name, status, species, gender } = character;
+  const { name, status, species, gender, image } = character;
   return (
-    <tr>
-      <td>{name}</td>
-      <td>{status}</td>
-      <td>{species}</td>
-      <td>{gender}</td>
-    </tr>
+    <>
+      <div className={styles.Character}>
+        <li>
+          <img src={image}/>
+        </li>
+        <li>Name: {name}</li>
+        <li>Status: {status}</li>
+        <li>Species: {species}</li>
+        <li>Gender: {gender}</li>
+      </div>
+    </>
   );
 }
 
