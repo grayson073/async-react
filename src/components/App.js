@@ -27,7 +27,9 @@ export default class App extends Component {
           increment={this.increment}
           decrement={this.decrement}
         />
-        <Characters/>
+        <Characters
+          currentPage={currentPage}
+        />
       </div>
     );
   }
